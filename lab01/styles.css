@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 1rem;
+    background: red;
+    width: 80%;
+    margin: auto;
+}
+
+.item {
+    padding: 1rem;
+    background: gold;
+}
+
+.btn-sort-az {
+    margin-left: 100px;
+    padding: 0.5rem 1rem;
+}
+
+.btn-sort-za {
+    padding: 0.5rem 1rem;
+}

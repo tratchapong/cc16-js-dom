@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    gap: 1rem;
+}
+
+form {
+    width: 80%;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+form > input {
+    font-size: 20px;
+    padding: 8px;
+}

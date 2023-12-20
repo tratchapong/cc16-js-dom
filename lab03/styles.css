@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 80vh;
+}
+
+.container {
+    background: salmon;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.container > * {
+    padding: 1rem;
+    border: 1px dashed lime;
+}
